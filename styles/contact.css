@@ -1,0 +1,47 @@
+.contactform {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contactform form .side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactform form .side-by-side * {
+    flex-grow: 1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    padding: 20px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #d5d5e1;
+    border: 1px solid #333;
+}
+
+input[type="submit"]:hover {
+    filter: brightness(.95);
+}

@@ -1,4 +1,5 @@
-import Team from "../components/Team"
+import Team from "./team"
+import Contact from "./contact"
 import Link from "next/link"
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         </div>
       </main>
       
-      <Team/>
+      <Team />
 
       <main style={{padding:"30px"}}>
         <h1 className="subtitle" id="app">The App</h1>
@@ -25,6 +26,8 @@ export default function Home() {
           This App is an interactive and fun way to get information about some of the rarest of the rare species of animals and plants, and you can also bring these animals and plants to life within seconds using our AR features. This app also tells you how some of our fellow humans are harming these creatures and what should be done to support them. You also get to know some cool fun-facts about these organisms which would never fail to amaze you. To know more about this App's features, go <Link href="/app">here</Link>.
         </p>
       </main>
+
+      <Contact />
     </div>
   )
 }

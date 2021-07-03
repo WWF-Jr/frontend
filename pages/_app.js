@@ -9,6 +9,7 @@ import '../styles/Home.css'
 import '../styles/Navbar.css'
 import '../styles/Footer.css'
 import '../styles/app-page.css'
+import '../styles/contact.css'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
