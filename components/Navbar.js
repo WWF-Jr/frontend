@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Team extends React.Component{
+export default class Navbar extends React.Component{
 	render(){
 		return(
 			<nav>

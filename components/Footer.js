@@ -47,6 +47,10 @@ export default class Footer extends React.Component{
 						</a>
 					</div>
 				</div>
+
+				<div className="copyright">
+					&copy; 2021, By the <a href="https://github.com/WWF-Jr">WWF Jr. Team</a>
+				</div>
 			</footer>
 		)
 	}

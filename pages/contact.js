@@ -62,8 +62,10 @@ const main = () => {
 				<form action="/api/contact" method="POST">
 					<div className="side-by-side">
 						<input type="text" name="name" placeholder="Your Name" required/>
+						<span className="gap"></span>
 						<input type="email" name="email" placeholder="Your Email" required/>
 					</div>
+					<input type="text" name="subject" placeholder="Subject..." required/>
 					<textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
 					<input type="submit" className="theme-small"/>
 				</form>
