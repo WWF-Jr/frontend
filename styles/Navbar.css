@@ -1,0 +1,89 @@
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 70px;
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+    z-index: 100;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 #ccc;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav #homelink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: #000;
+    z-index: 101;
+}
+
+nav .buttonbar {
+    width: auto;
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonbar a {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    width: 120px;
+    transition: all .2s;
+}
+
+.buttonbar a:hover {
+    background-color: #ddd;
+}
+
+.buttonbar .toggle {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .buttonbar {
+        flex-direction: column;
+        position: absolute;
+        width: 100%!important;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 10px 0 solid #000;
+    }
+    .buttonbar a {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonbar a.toggle {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+    .buttonbar a.item {
+        transition: all .4s ease;
+        background-color: #eee;
+        margin: 0;
+    }
+    .buttonbar.inactive a.item {
+        height: 0;
+        display: none;
+    }
+    .buttonbar.active a.item {
+        height: 70px;
+        display: flex;
+    }
+}
