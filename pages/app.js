@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link"
 
-export default class NotFound extends React.Component{
+export default class AboutApp extends React.Component{
 	render(){
 		return (
 			<div className="container" style={{padding:"0 30px"}}>
