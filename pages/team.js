@@ -20,7 +20,7 @@ export default class Team extends React.Component{
 					</a>
 
 					<a href="https://github.com/miscae" className="card" target="_blank">
-						<img src="/team/nalin.png" alt=""/>
+						<img src="/team/cindy.png" alt=""/>
 						<h2>Cindy</h2>
 					</a>
 				</div>
