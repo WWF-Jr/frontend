@@ -14,19 +14,16 @@ export default class Team extends React.Component{
 						<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
 						</svg>
 					</a>
-					<a href="/" className="item">
+					<a href="/#" className="item">
 						<p>About</p>
 					</a>
-					<a href="/team" className="item">
+					<a href="/#team" className="item">
 						<p>Team</p>
 					</a>
-					<a href="#" className="item">
+					<a href="/#app" className="item">
 						<p>App</p>
 					</a>
-					<a href="#" className="item">
-						<p>Blog</p>
-					</a>
-					<a href="#" className="item">
+					<a href="/#contact" className="item">
 						<p>Contact</p>
 					</a>
 				</div>

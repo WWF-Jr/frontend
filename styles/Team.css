@@ -55,8 +55,8 @@
 }
 
 @media (max-width: 600px) {
-    .grid {
+    .card {
         width: 100%;
-        flex-direction: column;
+        margin: 1rem 0;
     }
 }

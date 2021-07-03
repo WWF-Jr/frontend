@@ -1,0 +1,26 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.grid-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.desc {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+@media screen and (max-width:1000px) {
+    .grid-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

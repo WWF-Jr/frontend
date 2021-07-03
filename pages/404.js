@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 
 export default class NotFound extends React.Component{
 	render(){
@@ -8,7 +9,7 @@ export default class NotFound extends React.Component{
 					We don't think we remember this page.
 				</h1>
 				<h2 className="subtitle">
-					<a href="/">Visit the home page</a>
+					<Link href="/">Visit the home page</Link>
 				</h2>
 			</div>
 		)

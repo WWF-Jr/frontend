@@ -4,7 +4,7 @@ export default class Team extends React.Component{
 	render(){
 		return(
 			<section className="main">
-				<h2 className="subtitle">
+				<h2 id="team" className="subtitle">
 					Our Team
 				</h2>
 

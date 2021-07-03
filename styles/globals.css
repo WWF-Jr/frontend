@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap');
 html,
 body {
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -15,13 +15,15 @@ a {
 }
 
 h1,
-h2 {
+h2,
+.theme-big {
     font-family: 'Londrina Solid', cursive;
     font-weight: 900;
 }
 
 h3,
-h4 {
+h4,
+.theme-small {
     font-family: 'Londrina Solid', cursive;
     font-weight: 400;
 }
@@ -50,7 +52,6 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .title {
