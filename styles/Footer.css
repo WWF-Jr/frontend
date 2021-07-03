@@ -52,3 +52,9 @@ footer .social a svg {
 .email {
     background-color: #d54b3e;
 }
+
+footer .copyright {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
