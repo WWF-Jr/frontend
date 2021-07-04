@@ -28,14 +28,6 @@ h4,
     font-weight: 400;
 }
 
-.code {
-    background: #fafafa;
-    border-radius: 5px;
-    padding: 0.75rem;
-    font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .main {
     padding: 5rem 0;
     flex: 1;
@@ -70,4 +62,11 @@ h4,
 .title,
 .subtitle {
     text-align: center;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
 }

@@ -10,6 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #000;
+    /* This colour is used to override the default colours on dark theme devices */
 }
 
 .app h1 {
