@@ -125,10 +125,10 @@ function Page4(comp){
 			ReactDOM.render(
 				<section>
 					<h3 className="subtitle">Fact:</h3>
-					<p>{resp.data.fact}</p>
+					<p>{resp.data.info.fact}</p>
 					<div className={styles.buttons}>
-						<a className={styles.button} href="/app/run/view3d?url=https://wwf-jr.github.io/3D-Data/tarsier.stl" target="_blank">View in 3D</a>
-						<a className={styles.button} href="/app/run/viewar?url=https://wwf-jr.github.io/3D-Data/tarsier.stl" target="_blank">View in Real Life</a>
+						<a className={styles.button} href={`/app/run/view3d?url=${resp.data.info["3d"]}`} target="_blank">View in 3D</a>
+						<a className={styles.button} href={`/app/run/viewar?url=${resp.data.info["3d"]}`} target="_blank">View in Real Life</a>
 					</div>
 				</section>
 			, document.getElementById("main"))
