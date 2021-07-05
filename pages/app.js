@@ -20,21 +20,6 @@ export default class AboutApp extends React.Component{
 						<li>Know about some amazing mind-boggling facts related to wildlife.</li>
 						<li>Get all of this from 1 single place on any device you like.</li>
 					</ul>
-					<h1 className="subtitle">
-						Screenshots
-					</h1>
-					<div className="screenshots">
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-						<img src="" alt="" className="screenshot" />
-					</div>
 					<h1 className="subtitle" style={{marginTop:"50px"}}>Get the App</h1>
 					<p className="desc" style={{textAlign:"center"}}>
 						This app can run on your favourite browser, and for that, you need to go <Link href="/app/run">Here</Link>.
