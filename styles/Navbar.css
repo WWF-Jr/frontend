@@ -82,6 +82,9 @@ nav .buttonbar {
         display: flex;
         justify-content: flex-end;
         padding-right: 2rem;
+        width: 100%!important;
+        height: 70px!important;
+        align-items: center;
     }
     .buttonbar .item {
         transition: all .4s ease;
