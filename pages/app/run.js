@@ -3,7 +3,7 @@ import App from "../../components/App"
 export default App
 
 export const getServerSideProps = async (ctx) => {
-	let regionsreq = await new axios(`${ctx.protocol}://wwf-jr.herokuapp.com/fetch_cont`, {})
+	let regionsreq = await new axios(`https://wwf-jr.herokuapp.com/fetch_cont`, {})
 	if(regionsreq.data.success){
 		let regionsRaw = regionsreq.data.conts
 		let regions = []
