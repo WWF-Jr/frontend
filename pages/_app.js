@@ -1,5 +1,6 @@
 import React from "react"
 import Head from "next/head"
+import {useRouter} from "next/router"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
@@ -12,16 +13,21 @@ import '../styles/app-page.css'
 import '../styles/contact.css'
 import '../styles/globals.css'
 
+
+let excludes = ["/app/run"]
+excludes.includes()
+
 function MyApp({ Component, pageProps }) {
+  let router = useRouter()
   return (
     <React.StrictMode>
       <Head>
         <title>WWF Jr</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Navbar />
+      {!excludes.includes(router.pathname) && <Navbar />}
       <Component {...pageProps} />
-      <Footer />
+      {!excludes.includes(router.pathname) &&  <Footer />}
     </React.StrictMode>
   )
 }

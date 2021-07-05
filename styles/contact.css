@@ -67,3 +67,12 @@ input[type="submit"]:hover {
         display: none;
     }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        background-color: #222;
+        color: #fff;
+    }
+}

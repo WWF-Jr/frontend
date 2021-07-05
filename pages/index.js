@@ -8,7 +8,7 @@ export default function Home() {
 
       <main className="grid-2">
         <div>
-          <img src="/Logo.png" alt="" style={{width:"70vmin"}}/>
+          <img src="/Logo.png" alt="" style={{width:"70vmin", borderRadius: "10px"}}/>
         </div>
         <div>
           <h1 className="subtitle">About Us</h1>

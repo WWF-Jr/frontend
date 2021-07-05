@@ -1,0 +1,65 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    background-color: #005f99;
+    background-image: url("/earth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    /* This colour is used to override the default colours on dark theme devices */
+}
+
+.app h1 {
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 20px;
+    transition: all .3s ease;
+}
+
+.buttons button:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(3px);
+}
+
+.appbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    height: 5vh;
+}
+
+.appbar button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #000;
+    transition: all .3s ease;
+}
+
+.appbar button:hover {
+    background-color: #000;
+    fill: #fff;
+}

@@ -4,9 +4,6 @@ import Head from "next/head";
 
 export default class Contact extends React.Component{
 	query;
-	static getInitialProps({query}) {
-		return {query}
-	}
 	constructor(props){
 		super(props)
 		this.query = props.query
