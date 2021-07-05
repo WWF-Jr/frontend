@@ -19,6 +19,7 @@ export default class App extends React.Component{
 				<div className={styles.app} id="app">
 					<Head>
 						<link rel="manifest" href="/manifest.json" />
+						<meta name="theme-color" content="#005f99"/>
 					</Head>
 					{pages[this.state.page](this)}
 					<div className={styles.appbar}>

@@ -9,21 +9,21 @@ export default class Navbar extends React.Component{
 				</a>
 
 				<div className="buttonbar inactive" id="buttonbar">
-					<a href="#" className="toggle" onClick={toggleMenu}>
+					<a className="toggle" onClick={toggleMenu}>
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
 						</svg>
 					</a>
-					<a href="/#" className="item">
+					<a href="/#" className="item" onClick={toggleMenu}>
 						<p>About</p>
 					</a>
-					<a href="/#team" className="item">
+					<a href="/#team" className="item" onClick={toggleMenu}>
 						<p>Team</p>
 					</a>
-					<a href="/#app" className="item">
+					<a href="/#app" className="item" onClick={toggleMenu}>
 						<p>App</p>
 					</a>
-					<a href="/#contact" className="item">
+					<a href="/#contact" className="item" onClick={toggleMenu}>
 						<p>Contact</p>
 					</a>
 				</div>

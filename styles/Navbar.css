@@ -46,6 +46,7 @@ nav .buttonbar {
     text-align: center;
     width: 120px;
     transition: all .2s;
+    cursor: pointer;
 }
 
 .buttonbar a.item:hover {
