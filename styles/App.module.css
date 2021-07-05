@@ -34,18 +34,27 @@
     align-items: center;
 }
 
-.buttons button {
+.buttons button,
+.buttons a {
     cursor: pointer;
     width: 120px;
     height: 60px;
     border-radius: 5px;
     border: 1px solid #000;
+    background-color: #fff;
     margin: 20px;
     transition: all .3s ease;
     text-transform: capitalize;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
-.buttons button:hover {
+.buttons button:hover,
+.buttons a:hover {
     background-color: #000;
     color: #fff;
     transform: translateY(3px);
