@@ -60,3 +60,9 @@
         margin: 1rem 0;
     }
 }
+
+@media screen and (prefers-color-scheme:dark) {
+    .card {
+        background-color: #222;
+    }
+}

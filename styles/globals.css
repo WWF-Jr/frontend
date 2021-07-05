@@ -8,6 +8,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #00c7f7;
+}
+
+a:hover {
+    color: #0089ac;
 }
 
 * {
@@ -66,7 +71,7 @@ h4,
 
 @media screen and (prefers-color-scheme: dark) {
     body {
-        background-color: #000;
+        background-color: #333;
         color: #fff;
     }
 }

@@ -1,7 +1,7 @@
 footer {
     margin-top: 30px;
     padding: 20px;
-    background-color: #333;
+    background-color: #222;
     color: #fff;
 }
 
@@ -16,6 +16,7 @@ footer a {
 
 footer a:hover {
     filter: brightness(50%);
+    color: #fff;
 }
 
 footer .social {

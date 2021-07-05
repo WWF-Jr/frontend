@@ -15,6 +15,10 @@ nav {
     box-shadow: 0 5px 10px 0 #ccc;
 }
 
+nav img {
+    border-radius: 5px;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -46,6 +50,7 @@ nav .buttonbar {
 
 .buttonbar a:hover {
     background-color: #ddd;
+    color: #000;
 }
 
 .buttonbar .toggle {
@@ -90,17 +95,18 @@ nav .buttonbar {
 
 @media screen and (prefers-color-scheme: dark) {
     nav {
-        background-color: #000;
-        box-shadow: 0 5px 10px 0 #333;
+        background-color: #333;
+        box-shadow: 0 5px 10px 0 #222;
     }
     nav #homelink {
         color: #fff;
     }
     .buttonbar a {
         color: #fff;
-        background-color: #000;
+        background-color: #333;
     }
     .buttonbar a:hover {
-        background-color: #333;
+        background-color: #555;
+        color: #fff;
     }
 }
