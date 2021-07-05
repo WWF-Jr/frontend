@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
 
-      <main className="grid-2">
+      <main className="grid-2" id="about">
         <div>
           <img src="/Logo.png" alt="" style={{width:"70vmin", borderRadius: "10px"}}/>
         </div>

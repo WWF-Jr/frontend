@@ -1,6 +1,6 @@
 import React from "react"
 import Head from "next/head"
-import {useRouter} from "next/router"
+import Router, {useRouter} from "next/router"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
@@ -11,6 +11,21 @@ import '../styles/Navbar.css'
 import '../styles/Footer.css'
 import '../styles/contact.css'
 import '../styles/globals.css'
+import '../styles/nprogress.css'
+
+
+import NProgress from 'nprogress';
+
+NProgress.configure({ easing: 'ease', speed: 1000 });
+Router.onRouteChangeStart = () => {
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+};
+Router.onRouteChangeError = () => {
+  NProgress.done();
+};
 
 
 let excludes = ["/app/run"]
