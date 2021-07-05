@@ -13,6 +13,5 @@
     "background_color": "#005f99",
     "display": "standalone",
     "scope": "/app/run?pwa=true",
-    "theme_color": "#005f99",
-    "description": "Weather forecast information"
+    "theme_color": "#005f99"
 }
