@@ -126,6 +126,10 @@ function Page4(comp){
 				<section>
 					<h3 className="subtitle">Fact:</h3>
 					<p>{resp.data.fact}</p>
+					<div className={styles.buttons}>
+						<a className={styles.button} href="/app/run/view3d?url=https://wwf-jr.github.io/3D-Data/tarsier.stl" target="_blank">View in 3D</a>
+						<a className={styles.button} href="/app/run/viewar?url=https://wwf-jr.github.io/3D-Data/tarsier.stl" target="_blank">View in Real Life</a>
+					</div>
 				</section>
 			, document.getElementById("main"))
 		}else{
